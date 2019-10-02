@@ -86,6 +86,9 @@ h5 {
 .ac {
   align-items: center;
 }
+.jc {
+  justify-content: center;
+}
 
 .sb {
   justify-content: space-between;
