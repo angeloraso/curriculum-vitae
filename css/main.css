@@ -316,7 +316,7 @@ a.button,
 .section-header {
   max-width: 600px;
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -326,43 +326,43 @@ a.button,
 }
 
 .resume {
-  margin: 5rem 0 0;
+  margin: 4rem 0 0;
 }
-  .resume h2 {
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin-bottom: .25rem;
-  }
-  .resume .subtitle {
-    font-size: 1.1rem;
-    color: #666666;
-  }
-  .resume .flex {
-    border-bottom: 1px solid #efefef;
-    margin-bottom: 2rem;
-    padding: 2rem 0;
-  }
-    .resume .flex:last-of-type {
-      border-bottom: none;
-      margin-bottom: 0;
-    }
-  .resume p {
-    margin-bottom: 1.5rem;
-  }
-  .resume p,
-  .resume li {
-    color: #666;
-  }
-  .resume h3 {
-    font-weight: 700;
-  }
+.resume h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: .25rem;
+}
+.resume .subtitle {
+  font-size: 1.1rem;
+  color: #666666;
+}
+.resume .flex {
+  border-bottom: 1px solid #efefef;
+  margin-bottom: 2rem;
+  padding: 2rem 0;
+}
+.resume .flex:last-of-type {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+.resume p {
+  margin-bottom: 1.5rem;
+}
+.resume p,
+.resume li {
+  color: #666;
+}
+.resume h3 {
+  font-weight: 700;
+}
 
 .resume-title {
-  flex: 1;
+  width: 300px;
 }
 
 .resume-description {
-  flex: 2;
+  width: 400px;
 }
 
 .card {
