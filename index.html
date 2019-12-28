@@ -28,185 +28,15 @@
   </nav>
 
   <main>
-    <div id="about" class="container flex ac">
-      <div class="about">
-        <img loading="lazy" class="inline" src="icon/favicon.png" width="45px"/>
-        <h1 class="inline name">Angelo Raso</h1>
-        <p>Actualmente soy estudiante de Ingeniería en Sistema de Información, en la UTN FRLP
-          y trabajo como desarrollador Front End en la empresa 
-          <a class="link" href="https://www.tecnom.com.ar/" target="_blank">Tecnom</a>.
-        </p>
-        <br/>
-        <div class="doubt">
-          <p>Tenés alguna duda?</p>
-          <a class="button link" href="#contact">Contáctame!</a>
-        </div>
-      </div>
-      <div class="code">
-        <p>{</p>
-          <div class="lines">
-            <div>
-              <p class="s-color inline">"name"</p><p class="inline">:&nbsp;</p><p class="s-color inline">"Angelo Raso"</p>
-            </div>
-            <div>
-              <p class="s-color inline">"age"</p><p class="inline">:&nbsp;</p><p id="my-age" class="s-color inline"></p>
-            </div>
-            <div>
-              <p class="s-color inline">"occupation"</p><p class="inline">:&nbsp;</p><p class="s-color inline">"Developer"</p>
-            </div>
-            <!-- <p class="s-color">"available_for_hire": false</p> -->
-          </div>
-        <p>}</p>
-      </div>
-    </div>
-    </div>
+    <include src="about.html">Loading...</include>
 
-    <section id="skills" class="section-bg">
-      <div class="container">
-        <header class="section-header">
-          <h1>Skills</h1>
-        </header>
-        <div class="flex wrap jc skills">
-          <a href="https://developer.mozilla.org/es/docs/HTML/HTML5" target="_blank" class="card link">
-            <img loading="lazy" src="img/html.png" alt="">
-            <h2>HTML</h2>
-          </a>
-          <a href="https://developer.mozilla.org/es/docs/Archive/CSS3" target="_blank" class="card link">
-            <img loading="lazy" src="img/css.png" alt="">
-            <h2>CSS</h2>
-          </a>
-          <a href="https://sass-lang.com/documentation/syntax" target="_blank" class="card link">
-            <img loading="lazy" src="img/scss.png" alt="">
-            <h2>Sass</h2>
-          </a>
-          <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank" class="card link">
-            <img loading="lazy" src="img/js.png" alt="">
-            <h2>JavaScript</h2>
-          </a>
-          <a href="http://www.typescriptlang.org/" target="_blank" class="card link">
-            <img loading="lazy" src="img/typescript.png" alt="">
-            <h2>Typescript</h2>
-          </a>
-          <a href="https://angularjs.org/" target="_blank" class="card link">
-            <img loading="lazy" src="img/angular_js.png" alt="">
-            <h2>AngularJs</h2>
-          </a>
-          <a href="https://angular.io/" target="_blank" class="card link">
-            <img loading="lazy" src="img/angular.png" alt="">
-            <h2>Angular</h2>
-          </a>
-          <a href="https://nodejs.org/es/" target="_blank" class="card link">
-            <img loading="lazy" src="img/node.png" alt="">
-            <h2>Node.js</h2>
-          </a>
-          <a href="https://nestjs.com" target="_blank" class="card link">
-            <img loading="lazy" src="img/nest.png" alt="">
-            <h2>NestJs</h2>
-          </a>
-          <a href="https://www.ngxs.io/" target="_blank" class="card link">
-            <img loading="lazy" src="img/ngxs.png" alt="">
-            <h2>NGXS</h2>
-          </a>
-          <a href="https://netbasal.gitbook.io/akita/" target="_blank" class="card link">
-            <img loading="lazy" src="img/akita.png" alt="">
-            <h2>Akita</h2>
-          </a>
-          <a href="https://webpack.js.org/" target="_blank" class="card link">
-            <img loading="lazy" src="img/webpack.png" alt="">
-            <h2>Webpack</h2>
-          </a>
-          <a href="https://ionicframework.com/" target="_blank" class="card link">
-            <img loading="lazy" src="img/ionic.png" alt="">
-            <h2>Ionic</h2>
-          </a>
-          <a href="https://pouchdb.com/" target="_blank" class="card link">
-            <img loading="lazy" src="img/pouchdb.png" alt="">
-            <h2>PouchDB</h2>
-          </a>
-          <a href="https://www.ibm.com/ar-es/cloud" target="_blank" class="card link">
-            <img loading="lazy" src="img/cloudant.png" alt="">
-            <h2>IBM Cloundannt</h2>
-          </a>
-          <a href="https://firebase.google.com/?hl=es-419" target="_blank" class="card link">
-            <img loading="lazy" src="img/firebase.png" alt="">
-            <h2>Firebase</h2>
-          </a>
-        </div>
-      </div>
+    <include src="skills.html">Loading...</include>
+    
+    <include src="experience.html">Loading...</include>
 
-    </section>
+    <include src="portfolio.html">Loading...</include>
 
-    <section id="experience" class="section">
-      <div class="container">
-        <header class="section-header">
-          <h1>Experiencia</h1>
-          <p>Un recorrido a través de mi carrera profesional</p>
-        </header>
-        <div class="resume">
-          <div class="flex jc">
-            <div class="resume-title">
-              <h2 class="underline-nh">UTN FRLP</h2>
-              <div class="subtitle">2012 - Actualidad</div>
-            </div>
-            <div class="resume-description">
-              <h3>Ingeniería en Sistemas de Información</h3>
-              <p>Actualmente me encuentro estudiando Ingeniería en Sistemas de Infromación en la Universidad Tecnológica Nacional, Facultad Regional La Plata, en mi último año de la carrera</p>
-              <ul>
-                <li>Promedio: 8</li>
-              </ul>
-            </div>
-          </div>
-          <div class="flex jc">
-            <div class="resume-title">
-              <h2 href="https://www.tecnom.com.ar/" target="_blank" class="underline-nh">Tecnom</h2>
-              <div class="subtitle">2018 - Actualidad</div>
-            </div>
-            <div class="resume-description">
-              <h3>Desarrollador</h3>
-              <p>Trabajo en la empresa Tecnom, como desarrollador Front End</p>
-            </div>
-          </div>
-        </div>
-    </section>
-
-    <section id="portfolio" class="section-bg">
-      <header class="section-header">
-        <h1>Portfolio</h1>
-      </header>
-      <div class="container flex jc">
-        <div class="portfoglio-card">
-          <div class="card__image-container">
-            <img loading="lazy" class="card__image" src="img/miutn.png" alt="">
-          </div>
-          <svg class="card__svg" viewBox="0 0 800 500">
-            <path d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500" stroke="transparent" fill="#333"/>
-            <path class="card__line" d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400" stroke="pink" stroke-width="3" fill="transparent"/>
-          </svg>
-          <div class="card__content">
-            <a class="link card__title" href="https://play.google.com/store/apps/details?id=com.miutn&hl=es_AR" target="_blank">miUTN App</a>
-            <p class="card__text">MiUTN es una aplicación diseñada por estudiantes, para estudiantes. Propone un entorno donde el alumno pueda acceder a la información referida al universo facultativo de la UTN FRLP, de manera rápida y precisa.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="section">
-      <header class="section-header">
-        <h1>Contacto</h1>
-      </header>
-      <div class="form-container">
-        <form action="https://formspree.io/angeloraso6@gmail.com" method="POST">
-          <label for="name">Nombre</label>
-          <input type="text" name="name">
-          <label for="email">Correo</label>
-          <input type="email" name="_replyto">
-          <label for="message">Mensaje</label>
-          <textarea name="message" cols="30" rows="10"></textarea>
-          <input type="submit" value="Enviar">
-        </form>
-      </div>
-    </section>
-
+    <include src="contact.html">Loading...</include>
   </main>
 
   <footer class="site-footer">
@@ -238,6 +68,5 @@
     </div>
   </footer>
 </body>
-
 </html>
 <script type="text/javascript" src="main.js"></script>
