@@ -27,4 +27,7 @@ function activate() {
         var age_dt = new Date(diff_ms);
         return Math.abs(age_dt.getUTCFullYear() - 1970);
     }
+
+    var current_year = document.getElementById('current-year');
+    current_year.innerText = new Date().getUTCFullYear();
 }
