@@ -1,0 +1,49 @@
+.resume {
+    margin: 4rem 0 0;
+}
+.resume h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: .25rem;
+}
+.resume .subtitle {
+    font-size: 1.1rem;
+    color: #666666;
+}
+.resume .flex {
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 2rem;
+    padding: 2rem 0;
+}
+.resume .flex:last-of-type {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+.resume p {
+    margin-bottom: 1.5rem;
+}
+.resume p,
+.resume li {
+    color: #666;
+}
+.resume h3 {
+    font-weight: 700;
+}
+
+.resume-title {
+    width: 300px;
+}
+
+.resume-description {
+    width: 400px;
+}
+
+.underline-nh {
+    padding: 0 10px 0 0;
+    display: inline-block;
+    transition: all 100ms linear;
+    background: linear-gradient(to right, var(--primary-color) 0%, var(--secondary-color) 98%);
+    background-size: 100% 6px;
+    background-repeat: no-repeat;
+    background-position: left 95%;
+}

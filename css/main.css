@@ -61,22 +61,12 @@ h5 {
   margin: 0 auto; 
 }
 
-.name {
-  position: relative;
-  top: -10px;
-  left: 10px;
-}
-
 .flex {
   display: flex;
   flex-direction: column;
 }
 
 @media screen and (min-width: 800px) {
-  .about {
-    margin-right: 3rem;
-
-  }
   .flex {
     flex-direction: row;
 
@@ -93,69 +83,6 @@ h5 {
 .sb {
   justify-content: space-between;
 }
-
-.code {
-  margin: auto;
-  background: #0D0D0D;
-  color: #d5d5d5;
-  font-family: Menlo, Roboto Mono, Courier New, monospace;
-  line-height: .3;
-  font-weight: 400;
-  border-radius: 0;
-  margin: 1.5rem auto;
-  width: 40%;
-  padding: 2rem;
-  border-radius: 6px;
-  border-top: 20px solid #d0d0d0;
-  box-shadow: 2px 3px 30px rgba(0, 0, 0, 0.15);
-}
-.lines p {
-  position: relative;
-  left: 2em;;
-}
-
-.about {
-  padding: 80px 0;
-  max-width: 450px;
-}
-  .about h1 {
-    margin-bottom: 1rem;
-  }
-  .about p {
-    font-size: 1.1rem;
-    color: #666;
-  }
-  .about .lead {
-    font-size: 1.2rem;
-  }
-  .about .subtitle {
-    font-weight: 700;
-    font-size: 2rem;
-  }
-
-a.button,
-[type=button],
-[type=submit] {
-  transition: background 500ms ease;
-  background-image: linear-gradient(to right, var(--primary-color) 0%, var(--secondary-color) 51%, var(--primary-color) 100%);
-  background-size: 300% auto;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  text-align: center;
-  vertical-align: middle;
-  padding: 1rem 1.75rem;
-  font-size: 1.1rem;
-  font-weight: 700;
-  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.05);
-  cursor: pointer;
-}
-  a.button:hover,
-  [type=button]:hover,
-  [type=submit]:hover {
-    text-decoration: none;
-    background-position: right center;
-  }
 
 .nav-container {
   display: flex;
@@ -224,21 +151,6 @@ a.button,
   max-width: 500px;
 }
 
-.social-icons {
-  margin-top: 2rem;
-}
-.social-icons .link {
-  color: white;
-  margin: 0 5px;
-}
-.social-icons a:hover {
-  text-decoration: none;
-  color: var(--secondary-color);
-}
-.social-icons a:nth-of-type(even):hover {
-  color: var(--primary-color);
-}
-
 .p-color {
   color: var(--primary-color);
 }
@@ -269,23 +181,6 @@ a.button,
 }
 .underline .link:hover {
   background-size: 100% 6px;
-}
-
-.underline-nh {
-  padding: 0 10px 0 0;
-  display: inline-block;
-  transition: all 100ms linear;
-  background: linear-gradient(to right, var(--primary-color) 0%, var(--secondary-color) 98%);
-  background-size: 100% 6px;
-  background-repeat: no-repeat;
-  background-position: left 95%;
-}
-
-.gradient-bg {
-  background: linear-gradient(to right, var(--primary-color) 0%, var(--secondary-color) 98%);
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  background-position: left 95%;
 }
 
 .f1 {
@@ -325,196 +220,11 @@ a.button,
   color: #666;
 }
 
-.resume {
-  margin: 4rem 0 0;
-}
-.resume h2 {
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin-bottom: .25rem;
-}
-.resume .subtitle {
-  font-size: 1.1rem;
-  color: #666666;
-}
-.resume .flex {
-  border-bottom: 1px solid #efefef;
-  margin-bottom: 2rem;
-  padding: 2rem 0;
-}
-.resume .flex:last-of-type {
-  border-bottom: none;
-  margin-bottom: 0;
-}
-.resume p {
-  margin-bottom: 1.5rem;
-}
-.resume p,
-.resume li {
-  color: #666;
-}
-.resume h3 {
-  font-weight: 700;
-}
-
-.resume-title {
-  width: 300px;
-}
-
-.resume-description {
-  width: 400px;
-}
-
-.card {
-  transition: all 500ms ease;
-  padding: 2.5rem;
-  background: #fff;
-  min-width: 150px;
-  border: 1px solid #efefef;
-  border-radius: 6px;
-  box-shadow: 0 6px 8px rgba(102, 119, 136, 0.03), 0 1px 2px rgba(102, 119, 136, 0.3);
-  margin: .5rem;
-}
-  .card:hover {
-    box-shadow: 0 6px 15px rgba(102, 119, 136, 0.03), 0 1px 2px rgba(102, 119, 136, 0.4);
-  }
-  .card img {
-    display: block;
-    margin: 0 auto;
-  }
-  .card h2 {
-    font-weight: 700;
-    font-size: 1.2rem;
-    margin: 2rem 0 0;
-    text-align: center;
-  }
-  .card p {
-    color: #666;
-    margin-bottom: 0;
-  }
-
-.skills img {
-  max-width: 50px;
-}
-
-.form-container {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
-
-[type=text],
-[type=email],
-textarea {
-  width: 100%;
-  display: block;
-  border: 1px solid #dedede;
-  border-radius: 6px;
-  padding: 1rem;
-  font-size: 1.1rem;
-  margin-bottom: 1rem;
-  box-shadow: 0 3px 6px rgba(102, 119, 136, 0.03), 0 1px 1px rgba(102, 119, 136, 0.4);
-}
-  [type=text]:focus,
-  [type=email]:focus,
-  textarea:focus {
-    outline: 0;
-    border: 1px solid #9a33ef;
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 6px #f392f6;
-  }
-
-label {
-  display: block;
-  font-weight: 700;
-  margin-bottom: .5rem;
-}
-
-.portfolio .card {
-  overflow: hidden;
-  padding: 0 0 2rem 0;
-}
-
 .inline {
   display: inline-block;
 }
 
-.doubt {
-  display: flex;
-  justify-content: flex-start;
-  align-items: baseline;
-}
-.doubt p {
-  margin-right: 20px;
-}
 .phrase {
   max-width: 400px;
 }
-/********************
-** PORTFOGLIO CARD **
-********************/
-.portfoglio-card {
-  position: relative;
-  background: #333;
-  width: 200px;
-  height: 400px;
-  border-radius: 6px;
-  padding: 2rem;
-  color: #aaa;
-  box-shadow: 0 .25rem .25rem rgba(0,0,0,0.2), 0 0 1rem rgba(0,0,0,0.2);
-}
-  
-.card__image-container {
-  margin: -2rem -2rem 1rem -2rem;
-}
 
-.card__line {
-opacity: 0;
-animation: LineFadeIn .8s .8s forwards ease-in;
-}
-
-.card__image {
-  opacity: 0;
-  animation: ImageFadeIn .8s 1.4s forwards;
-}
-
-.card__title {
-  color: white;
-  position: relative;
-  bottom: 7px;
-  font-weight: 800;
-  letter-spacing: 0.01em;
-}
-
-.card__text {
-  font-size: .9em;
-  line-height: 1.2;
-}
-
-.card__content {
-  margin-top: -1rem;
-  opacity: 0;
-  animation: ContentFadeIn .8s 1.6s forwards;
-}
-
-.card__svg {
-  position: absolute;
-  left: 0;
-  top: 115px;
-}
-
-@keyframes LineFadeIn {
-  0% { opacity: 0; d: path("M 0 300 Q 0 300 0 300 Q 0 300 0 300 C 0 300 0 300 0 300 Q 0 300 0 300 "); stroke: #fff; }
-  50% { opacity: 1; d: path("M 0 300 Q 50 300 100 300 Q 250 300 350 300 C 350 300 500 300 650 300 Q 750 300 800 300"); stroke: #888BFF; }
-  100% { opacity: 1; d: path("M -2 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 802 400"); stroke: #545581; }
-}
-
-@keyframes ContentFadeIn {
-  0% { transform: translateY(-1rem); opacity: 0; }
-  100% { transform: translateY(0); opacity: 1; }
-}
-
-@keyframes ImageFadeIn {
-  0% { transform: translate(-.5rem, -.5rem) scale(1.05); opacity: 0; filter: blur(2px); }
-  50% { opacity: 1; filter: blur(2px); }
-  100% { transform: translateY(0) scale(1.0); opacity: 1; filter: blur(0); }
-}
