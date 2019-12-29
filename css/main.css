@@ -211,9 +211,7 @@ h5 {
 .section-header {
   max-width: 600px;
   text-align: center;
-  margin-bottom: 2rem;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0px auto 2rem auto;
 }
 .section-header p {
   font-size: 1.2rem;
@@ -226,5 +224,53 @@ h5 {
 
 .phrase {
   max-width: 400px;
+}
+
+.up-arrow {
+	width: 1.2em;
+	height: 1.2em;
+	box-sizing: border-box;
+	position: relative;
+    left: 90%;
+    top: -30px;
+    transform: rotate(-45deg);
+    cursor: pointer;
+}
+.up-arrow::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    border-width: .8vmin .8vmin 0 0;
+    border-style: solid;
+    border-color: gray;
+    transition: .2s ease;
+    display: block;
+    transform-origin: 100% 0;
+    cursor: pointer;
+}
+.up-arrow::after {
+    content: '';
+    float: left;
+    position: relative;
+    top: -100%;
+    width: 100%;
+    height: 100%;
+    border-width: 0 .8vmin 0 0;
+    border-style: solid;
+    border-color: gray;
+    transform-origin: 100% 0;
+    transition:.2s ease;
+    cursor: pointer;
+}
+.up-arrow:hover::after {
+    transform: rotate(45deg);
+    border-color: var(--primary-color);;
+    height: 120%;
+    cursor: pointer;
+}
+.up-arrow:hover::before {
+    border-color: var(--primary-color);;
+    transform: scale(.8);
+    cursor: pointer;    
 }
 

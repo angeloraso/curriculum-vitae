@@ -1,22 +1,27 @@
 // Incluye htmls de las diferentes secciones
-function includeHtml( activate ) {
-    const includes = document.getElementsByTagName('include');
+function includeHtml() {
+    var includes = document.getElementsByTagName('include');
+    var htmls_count = includes.length - 1;
     [].forEach.call(includes, i => {
-        let filePath = i.getAttribute('src');
+        var filePath = i.getAttribute('src');
         fetch(filePath).then(file => {
             file.text().then(content => {
                 i.insertAdjacentHTML('afterend', content);
                 i.remove();
-                activate();
+                if ( htmls_count !== 0 ) {
+                    htmls_count --;
+                } else {
+                    activate();
+                }
             });
         });
     });
 }
 
-includeHtml( activate );
+includeHtml();
 
 function activate() {
-    const DATE_OF_BIRTH = new Date(1993, 6, 5); // 5 de Junio de 1993
+    var DATE_OF_BIRTH = new Date(1993, 6, 5); // 5 de Junio de 1993
     
     var age = document.getElementById('my-age');
     
@@ -30,4 +35,10 @@ function activate() {
 
     var current_year = document.getElementById('current-year');
     current_year.innerText = new Date().getUTCFullYear();
+
+    [].forEach.call(document.getElementsByClassName('up-arrow'), item => {
+        item.addEventListener('click', () => {
+            document.location.href = "#";
+        })
+    })
 }
