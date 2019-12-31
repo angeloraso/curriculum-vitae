@@ -1,8 +1,5 @@
-.custom-height {
-    height: 650px;
-}
 .portfoglio-card {
-    position: absolute;
+    position: relative;
     background: #333;
     width: 200px;
     height: 400px;
@@ -65,4 +62,12 @@
     0% { transform: translate(-.5rem, -.5rem) scale(1.05); opacity: 0; filter: blur(2px); }
     50% { opacity: 1; filter: blur(2px); }
     100% { transform: translateY(0) scale(1.0); opacity: 1; filter: blur(0); }
+}
+
+
+/* MOBILE */
+@media screen and (max-width: 768px) {
+    .card__svg {
+        top: 130px;
+    }   
 }
