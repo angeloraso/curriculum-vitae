@@ -1,5 +1,8 @@
+.custom-height {
+    height: 650px;
+}
 .portfoglio-card {
-    position: relative;
+    position: absolute;
     background: #333;
     width: 200px;
     height: 400px;
