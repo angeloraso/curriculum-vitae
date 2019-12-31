@@ -63,14 +63,10 @@ h5 {
 
 .flex {
   display: flex;
-  flex-direction: column;
 }
 
-@media screen and (min-width: 800px) {
-  .flex {
-    flex-direction: row;
-
-  }
+.dirc {
+  flex-direction: column;
 }
 
 .ac {
@@ -94,7 +90,7 @@ h5 {
   font-size: 1.1rem;
 }
 
-.brand .link {
+.navbar-name .link {
   font-weight: 400;
   color: #2d2d2d;
   text-decoration: none;
@@ -167,7 +163,7 @@ h5 {
   100% { transform: scale(1);}
 }
 
-.brand {
+.navbar-name {
   transform-origin: center;
   animation: loadBounce 500ms ease-in-out forwards;
 }
@@ -209,13 +205,9 @@ h5 {
 }
 
 .section-header {
-  max-width: 600px;
-  text-align: center;
-  margin: 0px auto 2rem auto;
-}
-.section-header p {
-  font-size: 1.2rem;
-  color: #666;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .inline {
@@ -272,5 +264,26 @@ h5 {
     border-color: var(--primary-color);;
     transform: scale(.8);
     cursor: pointer;    
+}
+
+/* MOBILE */
+@media screen and (max-width: 768px) {
+  .navbar-name {
+    visibility: hidden;
+    display: none;
+  }
+  .site-navigation .menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+}
+
+/* MOBILE */
+@media screen and (min-width: 769px) {
+  .dirc {
+    flex-direction: row;
+  }
 }
 

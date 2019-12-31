@@ -1,3 +1,8 @@
+.header-subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    text-align: center;
+}
 .resume {
     margin: 4rem 0 0;
 }
@@ -46,4 +51,14 @@
     background-size: 100% 6px;
     background-repeat: no-repeat;
     background-position: left 95%;
+}
+
+/* MOBILE */
+@media screen and (max-width: 768px) {
+    .resume-description {
+        width: 100%;
+    } 
+    .resume-description h3 {
+        margin-top: 10px;
+    }    
 }

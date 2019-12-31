@@ -76,8 +76,24 @@ a.button:hover,
     left: 2em;;
 }
 
-@media screen and (min-width: 800px) {
-    .about {
-        margin-right: 3rem;
+/* MOBILE */
+@media screen and (max-width: 768px) {
+    .about_image {
+        margin-left: 5px;
+    }
+    .about_text {
+        text-align: center;
+    }
+    .doubt {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 20%;
+    }   
+    .doubt p {
+        margin-right: 50px;
+        font-weight: bold;
+    }
+    .code {
+        display: none !important;
     }
 }
