@@ -68,6 +68,6 @@
 /* MOBILE */
 @media screen and (max-width: 768px) {
     .card__svg {
-        top: 130px;
+        width: 100% !important;
     }   
 }
