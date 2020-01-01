@@ -1,0 +1,41 @@
+.site-footer {
+    padding: 80px 0;
+    background: #0d0d0d;
+    color: #dedede;
+}
+.site-footer h1,
+.site-footer h2 {
+    color: #dedede;
+    font-size: 1.8rem;
+}
+.site-footer h1 {
+    display: inline-block;
+}
+.site-footer h2 {
+    background: linear-gradient(180deg, transparent 85%, var(--secondary-color) 0);
+}
+.site-footer {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.footer-bottom {
+    padding: 20px 0;
+    background: #212121;
+    color: #cdcdcd;
+}
+.footer-bottom p {
+    margin-bottom: 0;
+}
+
+.some-words {
+    max-width: 500px;
+}
+
+.phrase {
+    max-width: 400px;
+}
+.lightwhite {
+    color: white;
+    opacity: .7;
+}
