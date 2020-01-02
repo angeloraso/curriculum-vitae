@@ -39,3 +39,9 @@
     color: white;
     opacity: .7;
 }
+.rights-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    align-content: center;
+}
