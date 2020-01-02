@@ -6,9 +6,17 @@
 }
 
 iframe {
-    margin-top: 25%;
     height: 100%;
     width: 100%;
+    overflow: hidden;
+    /*Estilos para permitir scroll en safari */
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px; 
+    border:none;
+    z-index:999999;
 }
 
 .popup{
@@ -109,8 +117,5 @@ iframe {
 }
 
 @media screen and (min-width: 769px) {
-    iframe {
-        margin-top: 80px;
-    }
     /* Falta ajustar vista del modal para pantallas grandes*/
 }
