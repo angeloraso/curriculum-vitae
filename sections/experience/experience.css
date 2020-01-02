@@ -53,6 +53,11 @@
     background-position: left 95%;
 }
 
+em {
+    opacity: .5;
+    font-size: .9em;
+}
+
 /* MOBILE */
 @media screen and (max-width: 768px) {
     .resume-description {
