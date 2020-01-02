@@ -184,10 +184,10 @@ h5 {
 	height: 1.2em;
 	box-sizing: border-box;
 	position: relative;
-    left: 90%;
-    top: -30px;
-    transform: rotate(-45deg);
-    cursor: pointer;
+  left: 90%;
+  top: -30px;
+  transform: rotate(-45deg);
+  cursor: pointer;
 }
 .up-arrow::before {
     content: '';
@@ -328,6 +328,10 @@ h5 {
 
     .menu-toggle input:checked ~ ul {
         transform: none;
+    }
+
+    .up-arrow {
+      left: 85%
     }
 }
 

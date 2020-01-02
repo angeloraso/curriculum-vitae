@@ -41,7 +41,7 @@ function activate() {
     // Agrega click listener a las flechas
     document.querySelectorAll('.up-arrow').forEach(item => {
         item.addEventListener('click', event => {
-            document.location.href = "#";
+            document.location.href = "#about";
         })
     })
     // Agrega click listener a los skills
