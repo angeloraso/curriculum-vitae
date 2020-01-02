@@ -32,12 +32,17 @@
         flex-direction: row;
     }
     .card {
-        width: 50px;
-        padding: 1.2rem;
+        width: 45px;
+        height: 45px;
+        padding: 1rem;
         min-width: 0px;
+        display: flex;
+        justify-content: center;
     }
     .card img {
         margin: 0px 0px;
+        max-width: 45px;
+        max-height: 45px;
     }
     .card h2 {
         display: none;

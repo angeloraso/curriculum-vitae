@@ -51,7 +51,8 @@ function activate() {
         item.addEventListener('click', event => {
             document.location.href = "#popup-article";
             iframe.src = item.id;
-            close.href = '#' + item.id;
+            close.href = '#skills'
+            // close.href = '#' + item.id;
         })
     })
 }
