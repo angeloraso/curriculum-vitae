@@ -49,6 +49,7 @@ h5 {
   color: var(--link-color);
   font-weight: 700;
   text-decoration: none;
+  cursor: pointer;
 }
 .link:hover {
   text-decoration: underline;
