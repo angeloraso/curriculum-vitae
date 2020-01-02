@@ -8,9 +8,12 @@
 iframe {
     height: 100%;
     width: 100%;
-    /*Estilos para permitir scroll en safari */
-    overflow: auto !important;
-    -webkit-overflow-scrolling: touch !important;
+    overflow: hidden;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px; 
     border:none;
 }
 
