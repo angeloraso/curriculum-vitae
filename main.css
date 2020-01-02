@@ -140,7 +140,8 @@ h5 {
   background-position: left 95%;
 }
 .underline .link:hover {
-  background-size: 100% 6px;
+  background-size: 100% 4px;
+  padding-bottom: 2px;
 }
 
 .f1 {

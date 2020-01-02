@@ -1,3 +1,9 @@
+.about-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    align-content: center;
+}
 .about {
     padding: 80px 0;
     max-width: 450px;
@@ -61,14 +67,12 @@ a.button:hover,
 }
 
 .code {
-    margin: auto;
     background: #0D0D0D;
     color: #d5d5d5;
     font-family: Menlo, Roboto Mono, Courier New, monospace;
     line-height: .3;
     font-weight: 400;
     border-radius: 0;
-    margin: 1.5rem auto;
     width: 40%;
     padding: 2rem;
     border-radius: 6px;
@@ -82,6 +86,9 @@ a.button:hover,
 
 /* MOBILE */
 @media screen and (max-width: 768px) {
+    .about-container {
+        padding: 1.5em;
+    }
     .about {
         display: flex;
         justify-content: center;
