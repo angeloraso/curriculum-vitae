@@ -100,16 +100,24 @@ h5 {
   height: 80px;
   padding: 0 1rem;
   border-bottom: 1px solid #efefef;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
 }
 .site-navigation .menu .link {
   color: #888;
   font-weight: 400;
   margin: 0 2px;
   padding: 1rem;
+  border-top: 3px solid transparent;
+  transition: 280ms all 120ms ease-out;
 }
-.site-navigation .menu .link:hover {
-  text-decoration: none;
-  color: #111;
+.site-navigation .menu .link:hover,
+.site-navigation .menu .link:focus {
+    border-top-color: var(--secondary-color);
+    color: var(--secondary-color);
+    text-decoration: none;
 }
 
 .p-color {
