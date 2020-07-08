@@ -269,11 +269,6 @@ h5 {
         transition: color 0.3s ease;
     }
 
-    .menu-toggle a:hover {
-        color: tomato;
-    }
-
-
     .menu-toggle input {
         display: block;
         width: 40px;
