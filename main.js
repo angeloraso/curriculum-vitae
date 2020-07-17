@@ -22,7 +22,7 @@ includeHtml();
 
 function activate() {
     // Setea la edad segun la fecha de cumpleaños
-    var DATE_OF_BIRTH = new Date(1993, 6, 5); // 5 de Junio de 1993
+    var DATE_OF_BIRTH = new Date(1993, 5, 5); // 5 de Junio de 1993
     
     var age = document.getElementById('my-age');
     
