@@ -51,10 +51,6 @@ h5 {
   text-decoration: none;
   cursor: pointer;
 }
-.link:hover {
-  text-decoration: underline;
-
-}
 
 .container {
   padding: 0 1rem;
