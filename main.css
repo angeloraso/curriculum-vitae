@@ -45,6 +45,14 @@ h5 {
   letter-spacing: -.03rem;
 }
 
+.snapping-container {
+  scroll-snap-type: y proximity;
+}
+
+.snapping-child {
+  scroll-snap-align: start;
+}
+
 .link {
   color: var(--link-color);
   font-weight: 700;
