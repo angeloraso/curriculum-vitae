@@ -8,8 +8,11 @@
   <title>Curriculum - Angelo Raso</title>
 
   <link rel="icon" href="icon/favicon.png">
-  <link href="main.css" rel="stylesheet">
-  <link href="utils/modal/modal.css" rel="stylesheet">
+  <link rel="preload" href="/main.css" as="style">
+  <link rel="preload" href="/main.js" as="script" type="text/javascript">
+  
+  <link rel="stylesheet" href="main.css">
+  <link ref="utils/modal/modal.css" rel="stylesheet">
 </head>
 
 <body class="snapping-container">
@@ -91,4 +94,4 @@
   
 </body>
 </html>
-<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="main.js" defer></script>
