@@ -1,12 +1,14 @@
 :root {
   --primary-color: #55325A;
   --secondary-color: #da89ff;
-  --link-color: #8995ff;
+  --dark-gray: #333;
+  --black: #2d2d2d;
+  --light-gray: #F1F3F5;
   font-family: 'Nunito Sans', sans-serif;
 }
 
 html, body {
-  color: #2d2d2d;
+  color: var(--black);
   height: 100%;
   width: 100%;
   margin: 0px;
@@ -54,7 +56,7 @@ h5 {
 }
 
 .link {
-  color: var(--link-color);
+  color: var(--black);
   font-weight: 700;
   text-decoration: none;
   cursor: pointer;
@@ -96,7 +98,7 @@ h5 {
 
 .navbar-name .link {
   font-weight: 400;
-  color: #2d2d2d;
+  color: var(--black);
   text-decoration: none;
 }
 
@@ -110,7 +112,7 @@ h5 {
   z-index: 100;
 }
 .site-navigation .menu .link {
-  color: #888;
+  color: var(--dark-gray);
   font-weight: 400;
   margin: 0 2px;
   padding: 1rem;
@@ -172,7 +174,7 @@ h5 {
 
 .section-bg {
   padding: 80px 0;
-  background: #F1F3F5;
+  background: var(--light-gray);
 }
 
 .section {
@@ -217,7 +219,7 @@ h5 {
     height: 100%;
     border-width: .8vmin .8vmin 0 0;
     border-style: solid;
-    border-color: gray;
+    border-color: var(--dark-gray);
     transition: .2s ease;
     display: block;
     transform-origin: 100% 0;
@@ -232,7 +234,7 @@ h5 {
     height: 100%;
     border-width: 0 .8vmin 0 0;
     border-style: solid;
-    border-color: gray;
+    border-color: var(--dark-gray);
     transform-origin: 100% 0;
     transition:.2s ease;
     cursor: pointer;
@@ -269,7 +271,7 @@ h5 {
 
     .menu-toggle a {
         text-decoration: none;
-        color: #232323;
+        color: var(var(--black));
         transition: color 0.3s ease;
     }
 
@@ -330,7 +332,7 @@ h5 {
         margin: -100px 0 0 -50px;
         padding: 50px;
         padding-top: 125px;
-        background: #ededed;
+        background: var(--light-gray);
         list-style-type: none;
         -webkit-font-smoothing: antialiased;  
         transform-origin: 0% 0%;

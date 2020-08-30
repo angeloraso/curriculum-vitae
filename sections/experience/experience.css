@@ -1,6 +1,6 @@
 .header-subtitle {
     font-size: 1.2rem;
-    color: #666;
+    color: var(--dark-gray);
     text-align: center;
 }
 .resume {
@@ -13,10 +13,10 @@
 }
 .resume .subtitle {
     font-size: 1.1rem;
-    color: #666666;
+    color: var(--dark-gray);
 }
 .resume .flex {
-    border-bottom: 1px solid #efefef;
+    border-bottom: 1px solid var(--light-gray);
     margin-bottom: 2rem;
     padding: 2rem 0;
 }
