@@ -55,4 +55,16 @@ function activate() {
             // close.href = '#' + item.id;
         })
     })
+
+    typeWriter(0, 'Angelo Raso');
 }
+
+function typeWriter(index, name) {
+    if (index < name.length) {
+      document.getElementById('about-name').innerHTML += name.charAt(index);
+      index++;
+      setTimeout(() => {
+        typeWriter(index, name)
+      }, 100);
+    }
+  }
