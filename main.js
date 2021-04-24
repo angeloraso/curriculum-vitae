@@ -46,13 +46,10 @@ function activate() {
     })
     // Agrega click listener a los skills
     var iframe = document.getElementById('popup-iframe');
-    var close = document.getElementById('popup-close');
     document.querySelectorAll('.skill').forEach(item => {
         item.addEventListener('click', event => {
             document.location.href = "#popup-article";
             iframe.src = item.id;
-            close.href = '#skills'
-            // close.href = '#' + item.id;
         })
     })
 
