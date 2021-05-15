@@ -6,7 +6,15 @@
     border-radius: 6px;
     padding: 2rem;
     color: #aaa;
+    margin: 2rem;
     box-shadow: 0 .25rem .25rem rgba(0,0,0,0.2), 0 0 1rem rgba(0,0,0,0.2);
+}
+
+.portfoglio__cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .card__image-container {
@@ -28,6 +36,7 @@
     bottom: 7px;
     font-weight: 800;
     letter-spacing: 0.01em;
+    text-decoration: underline;
 }
 
 .card__text {
